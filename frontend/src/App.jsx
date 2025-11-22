@@ -43,8 +43,8 @@ const STATIC_PRODUCTS = [
     unit: "Pcs",
     category: "Home Essentials",
     brand: "Welspun",
-    stock: 180,
-    status: "In Stock",
+    stock: 0,
+    status: "Out Of Stock",
     image: "https://tse3.mm.bing.net/th/id/OIP.41Z4zlckza6UXpDZwsZS1wHaHa?pid=Api&P=0&h=180"
   },
   {
@@ -63,8 +63,8 @@ const STATIC_PRODUCTS = [
     unit: "Pack",
     category: "Stationery",
     brand: "Cello",
-    stock: 500,
-    status: "In Stock",
+    stock: 0,
+    status: "Out Of Stock",
     image: "https://tse3.mm.bing.net/th/id/OIP.FkwPhgE1N6gfevLgTpakSgHaHa?pid=Api&P=0&h=180"
   },
   {
