@@ -1,0 +1,284 @@
+/* ---- GLOBAL ---- */
+body {
+  font-family: "Inter", sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ---- TABLE CARD ---- */
+.table-card {
+  background: #fff;
+  border-radius: 12px;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* ---- TABLE ---- */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.products-table th {
+  background: #fafafa;
+  text-align: left;
+  padding: 14px 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #ececec;
+}
+
+.products-table td {
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.products-table tr:hover {
+  background: #f9fcff;
+}
+
+/* ---- PRODUCT IMAGE ---- */
+.product-image {
+  width: 66px;
+  height: 66px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #e5e5e5;
+}
+
+.product-image-fallback {
+  width: 66px;
+  height: 66px;
+  border-radius: 8px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  font-size: 12px;
+}
+
+/* ---- STATUS BADGES ---- */
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status.in {
+  background: #d6f5dd;
+  color: #1a8a35;
+}
+
+.status.out {
+  background: #ffe1e1;
+  color: #c93636;
+}
+
+/* ---- BUTTONS ---- */
+.btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+.btn.small {
+  padding: 6px 10px;
+}
+
+.btn.primary {
+  background: #228be6;
+  color: white;
+}
+
+.btn.danger {
+  background: #e03131;
+  color: white;
+}
+
+/* ---- TABLE FOOTER ---- */
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  font-size: 14px;
+}
+
+/* ---- 3-DOT MENU ---- */
+.menu-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dots-btn {
+  border: none;
+  background: #f2f2f2;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.dots-btn:hover {
+  background: #e7e7e7;
+}
+
+/* Dropdown */
+.menu-dropdown {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background: #fff;
+  width: 110px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  z-index: 20;
+  overflow: hidden;
+}
+
+.menu-dropdown button {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+}
+
+.menu-dropdown button:hover {
+  background: #f5f5f5;
+}
+
+/* ---- SEARCH BAR & FILTER ---- */
+.search-bar {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.search-input {
+  width: 260px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.category-select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* ---- HEADER BAR TITLE CENTER ---- */
+.header-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* Add margin around the entire page */
+.page-container {
+  margin: 20px 30px;
+}
+
+/* BACKDROP */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* MODAL CARD */
+.modal-card {
+  background: white;
+  width: 85%;
+  max-width: 1100px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* HEADER */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* BODY LAYOUT 2-COLUMNS */
+.modal-body {
+  display: flex;
+  gap: 20px;
+}
+
+.modal-left {
+  width: 60%;
+}
+
+.modal-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* PREVIEW BOX */
+.preview-box {
+  width: 100%;
+  height: 260px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Form rows */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form-row input,
+.form-row select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.preview-placeholder {
+  color: #666;
+  font-size: 14px;
+}
+

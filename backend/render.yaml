@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: inventory-backend
+    env: node
+    rootDir: .
+    startCommand: node server.js
+    buildCommand: npm install
+    envVars:
+      - key: DATABASE_PATH
+        value: inventory.db
