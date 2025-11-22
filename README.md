@@ -194,8 +194,8 @@ root/
 ## 🔧 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/skillwise-inventory-system.git
-cd skillwise-inventory-system
+git clone https://github.com/Rachana-Hegde/product-management-system-skillwise-assignment.git
+cd product-management-system-skillwise-assignment
 ```
 
 ---
@@ -273,4 +273,12 @@ Use:
 # 🙌 Acknowledgements
 
 This assignment was developed as part of **Skillwise Full-Stack Developer Evaluation**.
+
+
+---
+
+## 📬 Contact  
+
+For any inquiries or feedback, feel free to reach out:    
+🔗 **GitHub**: [Rachana-Hegde](https://github.com/Rachana-Hegde)  
 
