@@ -282,3 +282,7 @@ This assignment was developed as part of **Skillwise Full-Stack Developer Evalua
 For any inquiries or feedback, feel free to reach out:    
 🔗 **GitHub**: [Rachana-Hegde](https://github.com/Rachana-Hegde)  
 
+
+## 🌐 Live API
+
+https://product-management-system-sk-git-a574a8-rachana-hegdes-projects.vercel.app/
